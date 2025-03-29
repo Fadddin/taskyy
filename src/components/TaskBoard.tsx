@@ -101,14 +101,14 @@ export function TaskBoard() {
     <div className="h-full flex flex-col space-y-6">
       <div className="mb-2">
 
-        <div className='flex justify-between'>
+        <div className='lg:flex justify-between items-center'>
 
           <h1 className="text-6xl font-devonshire font-bold">Tasky</h1>
 
           <div>
             <button
               onClick={handleOpenForm}
-              className="animate-bounce-light box-show font-handwritten font-bold flex bg-blue-400 py-2 px-4 rounded border-2 border-white items-center text-white"
+              className="animate-bounce-light box-show text-xs lg:text-md  font-handwritten font-bold flex bg-blue-400 py-2 px-4 rounded border-2 border-white items-center text-white mt-6 lg:mt-0 "
             >
               <Plus className="mr-2 h-4 w-4" />
               ADD NEW TASK
